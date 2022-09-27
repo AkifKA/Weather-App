@@ -19,11 +19,10 @@ const getWeather = async function () {
 };
 
 const searchBtn = document.querySelector(".btn");
-searchBar.addEventListener("click", (e) => {
-   getResult();
+searchBtn.addEventListener("click", (e) => {
+  getResult();
 });
 
-const getResult=(cityName=>{
-    console.log(cityName);
-})
-const searchBarDiv=document.querySelector(.search-bar)
+const getResult = (cityName) => {
+  console.log(cityName);
+};
